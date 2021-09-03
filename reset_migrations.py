@@ -1,3 +1,4 @@
+# place in root directory of django project, i.e the same level as the manage.py file
 import os
 import shutil
 
