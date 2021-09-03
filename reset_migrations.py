@@ -38,7 +38,6 @@ class ResetMigrations:
 
     def make_migrations(self):
         os.system('python3 manage.py makemigrations')
-        os.system('python3 migrate')
 
     def migrate(self):
         os.system('python3 manage.py migrate')
